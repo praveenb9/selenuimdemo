@@ -19,15 +19,25 @@ public class KeyboardHandling {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
-//		driver.get("https://www.facebook.com/");		
-//		driver.findElement(By.id("email")).sendKeys("praveen");
-		Actions action=new Actions(driver);
-		
-		action.sendKeys(Keys.TAB).perform();
-		action.sendKeys("989hgf").perform();
-		action.sendKeys(Keys.ENTER).perform();
-		driver.navigate().to("https://www.redbus.in/");
-	
+		 
+//		 driver.get("https://www.facebook.com/");
+		 
+//		 driver.findElement(By.id("email")).sendKeys("Manikanta");
+		 
+		 
+//		 action.sendKeys(Keys.TAB).perform();
+//		 action.sendKeys("FGAGA").perform();
+//		 action.sendKeys(Keys.ENTER).perform();
+		 
+		 Actions action =new Actions(driver);
+		 
+		 driver.navigate().to("https://www.redbus.in/");
+		 
+		 driver.findElement(By.id("src")).sendKeys("hy");
+		 
+		 action.sendKeys(Keys.DOWN).perform();
+		 action.sendKeys(Keys.DOWN).perform();
+		 action.sendKeys(Keys.ENTER).perform();
 	}
 
 }
