@@ -52,7 +52,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Sep 16, 2020 02:47:46 pm</span>
+			<span class='label blue darken-3 suite-start-time'>Sep 16, 2020 09:29:44 pm</span>
 			</a>
 		</ul>
 	</div>
@@ -124,7 +124,7 @@
                     <canvas id='child-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> scenario(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>2</span> scenario(s) passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, 
@@ -140,7 +140,7 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>5</span> step(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>13</span> step(s) passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, 
@@ -166,7 +166,7 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>To Test The OrangeHrm Application</span>
-						<span class='test-time'>Sep 16, 2020 02:47:47 pm</span>
+						<span class='test-time'>Sep 16, 2020 09:29:45 pm</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -177,7 +177,7 @@
 	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
 <div class='scenario node' test-id='2' status='pass'>
-	<span class='duration right label'>0h 0m 17s+751ms</span>
+	<span class='duration right label'>0h 0m 20s+506ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: To Test the Login Functionality of OrangeHrm</div>
 	</div>
@@ -200,6 +200,46 @@
 		</li>
 		<li test-id='7' class='node then pass' status='pass'>
 			<div class="step-name" title="com.step_definition.OrangeHRMLoginSteps.to_Close_the_browser()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then To Close the browser</div>
+			<div class="node-step"></div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='8' status='pass'>
+	<span class='duration right label'>0h 0m 24s+918ms</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: To Test the Admin Functionality of OrangeHrm</div>
+	</div>
+	<ul class='steps'>
+		<li test-id='9' class='node given pass' status='pass'>
+			<div class="step-name" title="com.step_definition.OrangeHRMAdminSteps.to_Open_Admin_functionlity_of_OrangeHrm()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given To Open Admin functionlity of OrangeHrm</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='10' class='node when pass' status='pass'>
+			<div class="step-name" title="com.step_definition.OrangeHRMAdminSteps.to_Enter_Username()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When To Enter Username</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='11' class='node then pass' status='pass'>
+			<div class="step-name" title="com.step_definition.OrangeHRMAdminSteps.select_UserRole()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Select UserRole</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='12' class='node then pass' status='pass'>
+			<div class="step-name" title="com.step_definition.OrangeHRMAdminSteps.to_Enter_EmployeeName()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then To Enter EmployeeName</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='13' class='node then pass' status='pass'>
+			<div class="step-name" title="com.step_definition.OrangeHRMAdminSteps.select_Status()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Select Status</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='14' class='node then pass' status='pass'>
+			<div class="step-name" title="com.step_definition.OrangeHRMAdminSteps.click_Search_Button()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Click Search Button</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='15' class='node then pass' status='pass'>
+			<div class="step-name" title="com.step_definition.OrangeHRMAdminSteps.take_the_Screenshot_and_the_Title()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Take the Screenshot and the Title</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='16' class='node then pass' status='pass'>
+			<div class="step-name" title="com.step_definition.OrangeHRMAdminSteps.close_the_browser()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Close the browser</div>
 			<div class="node-step"></div>
 		</li>
 	</ul>
@@ -240,31 +280,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>1</div>
+					<div class='panel-lead'>2</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>5</div>
+					<div class='panel-lead'>13</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Sep 16, 2020 02:47:46 pm</div>
+					<div class='panel-lead'>Sep 16, 2020 09:29:44 pm</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Sep 16, 2020 02:48:04 pm</div>
+			 		<div class='panel-lead'>Sep 16, 2020 09:30:30 pm</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 18s+775ms</div>
+					<div class='panel-lead'>0h 0m 46s+441ms</div>
 				</div>
 			</div>
 		</div>
@@ -283,8 +323,8 @@
 				warningParent: 0,
 				skipParent: 0,
 				exceptionsParent: 0,
-				childCount: 1,
-				passChild: 1,
+				childCount: 2,
+				passChild: 2,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
@@ -293,8 +333,8 @@
 				infoChild: 0,
 				debugChild: 0,
 				exceptionsChild: 0,
-				grandChildCount: 5,
-				passGrandChild: 5,
+				grandChildCount: 13,
+				passGrandChild: 13,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
@@ -307,7 +347,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "To Test The OrangeHrm Application":17.751
+			        "To Test The OrangeHrm Application":45.449
 			};
 		</script>
 	
