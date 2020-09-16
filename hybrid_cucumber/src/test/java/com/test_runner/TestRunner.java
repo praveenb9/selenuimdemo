@@ -20,7 +20,7 @@ import io.cucumber.junit.CucumberOptions;
 						},
 		glue="com.step_definition"
 		//strict= true
-					
+		//monochrome = true 
 		)
 
 public class TestRunner {
