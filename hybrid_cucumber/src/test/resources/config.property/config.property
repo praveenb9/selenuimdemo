@@ -4,3 +4,8 @@ url = https://opensource-demo.orangehrmlive.com/
 #login credentilas
 username = Admin
 password = admin123
+
+#user details
+userRole=Admin
+empname=suresh
+status=Enabled
