@@ -4,10 +4,10 @@ formatter.feature({
   "description": "",
   "keyword": "Feature"
 });
-formatter.scenario({
+formatter.background({
   "name": "To Test the Login Functionality of OrangeHrm",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Background"
 });
 formatter.step({
   "name": "To Launch the Browser and navigate to the Url",
@@ -45,16 +45,6 @@ formatter.step({
 });
 formatter.match({
   "location": "com.step_definition.OrangeHRMLoginSteps.to_ake_he_Screeshot_and_the_Title()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "To Close the browser",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "com.step_definition.OrangeHRMLoginSteps.to_Close_the_browser()"
 });
 formatter.result({
   "status": "passed"

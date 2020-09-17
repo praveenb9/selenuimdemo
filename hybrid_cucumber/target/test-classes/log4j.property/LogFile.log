@@ -83,3 +83,46 @@
 2020-09-16 20:18:36,478 - com.baseclass.Library -INFO - Starting with Browser Set Up
 2020-09-16 20:18:39,762 - com.baseclass.Library -INFO - Identified the browser as chrome. Launching the browser
 2020-09-16 20:18:47,305 - com.baseclass.Library -INFO - Launched the Orangr HRM Application
+2020-09-16 20:21:43,987 - com.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-16 20:21:48,202 - com.baseclass.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-16 20:21:56,106 - com.baseclass.Library -INFO - Launched the Orangr HRM Application
+2020-09-16 20:21:56,106 - com.baseclass.Library -INFO - Browser launched
+2020-09-16 20:21:56,357 - com.baseclass.Library -INFO - Entered username and password
+2020-09-16 20:22:02,844 - com.baseclass.Library -INFO - login successful
+2020-09-16 20:22:03,372 - com.baseclass.Library -INFO - Taken Screenshot
+2020-09-16 20:22:04,040 - com.baseclass.Library -INFO - Exiting the application and closing the browser
+2020-09-16 20:22:04,041 - com.baseclass.Library -INFO - browser droped
+2020-09-16 20:22:04,071 - com.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-16 20:22:07,360 - com.baseclass.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-16 20:22:14,389 - com.baseclass.Library -INFO - Launched the Orangr HRM Application
+2020-09-16 21:29:45,314 - com.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-16 21:29:49,667 - com.baseclass.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-16 21:29:58,178 - com.baseclass.Library -INFO - Launched the Orangr HRM Application
+2020-09-16 21:29:58,179 - com.baseclass.Library -INFO - Browser launched
+2020-09-16 21:29:58,504 - com.baseclass.Library -INFO - Entered username and password
+2020-09-16 21:30:04,550 - com.baseclass.Library -INFO - login successful
+2020-09-16 21:30:05,094 - com.baseclass.Library -INFO - Taken Screenshot
+2020-09-16 21:30:05,770 - com.baseclass.Library -INFO - Exiting the application and closing the browser
+2020-09-16 21:30:05,772 - com.baseclass.Library -INFO - browser droped
+2020-09-16 21:30:05,809 - com.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-16 21:30:09,268 - com.baseclass.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-16 21:30:19,339 - com.baseclass.Library -INFO - Launched the Orangr HRM Application
+2020-09-16 21:30:30,715 - com.baseclass.Library -INFO - Exiting the application and closing the browser
+2020-09-17 09:28:54,846 - com.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-17 09:28:58,803 - com.baseclass.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-17 09:29:05,915 - com.baseclass.Library -INFO - Launched the Orangr HRM Application
+2020-09-17 09:29:05,915 - com.baseclass.Library -INFO - Browser launched
+2020-09-17 09:29:06,081 - com.baseclass.Library -INFO - Entered username and password
+2020-09-17 09:29:11,052 - com.baseclass.Library -INFO - login successful
+2020-09-17 09:29:11,570 - com.baseclass.Library -INFO - Taken Screenshot
+2020-09-17 09:29:12,208 - com.baseclass.Library -INFO - Exiting the application and closing the browser
+2020-09-17 09:29:12,209 - com.baseclass.Library -INFO - browser droped
+2020-09-17 09:37:26,254 - com.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-17 09:37:30,193 - com.baseclass.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-17 09:37:37,226 - com.baseclass.Library -INFO - Launched the Orangr HRM Application
+2020-09-17 09:37:37,227 - com.baseclass.Library -INFO - Browser launched
+2020-09-17 09:37:37,423 - com.baseclass.Library -INFO - Entered username and password
+2020-09-17 09:37:42,350 - com.baseclass.Library -INFO - login successful
+2020-09-17 09:37:43,151 - com.baseclass.Library -INFO - Taken Screenshot
+2020-09-17 09:37:43,911 - com.baseclass.Library -INFO - Exiting the application and closing the browser
+2020-09-17 09:37:43,912 - com.baseclass.Library -INFO - browser droped

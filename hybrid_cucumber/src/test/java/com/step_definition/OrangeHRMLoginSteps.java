@@ -45,10 +45,5 @@ public class OrangeHRMLoginSteps extends Library {
 		
 	}
 
-	@Then("To Close the browser")
-	public void to_Close_the_browser() {
-	   tearDown();
-		  logger.info("browser droped");
 
-	}
 }

@@ -17,10 +17,6 @@ public class OrangeHRMAdminSteps extends Library{
 	
 	@Given("To Open Admin functionlity of OrangeHrm")
 	public void to_Open_Admin_functionlity_of_OrangeHrm() {
-		browserSetUp();
-		loginPage=new OrangeHRMLoginPage(driver);
-		loginPage.loginUser(properties.getProperty("username"),properties.getProperty("password"));
-		loginPage.submit();
 	    adminPage = new OrangeHRMAdminPage(driver);
 	    adminPage.adminMenu();
 	}

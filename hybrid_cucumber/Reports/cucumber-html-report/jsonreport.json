@@ -3,17 +3,15 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-09-16T15:59:45.125Z",
         "line": 3,
         "name": "To Test the Login Functionality of OrangeHrm",
         "description": "",
-        "id": "to-test-the-orangehrm-application;to-test-the-login-functionality-of-orangehrm",
-        "type": "scenario",
-        "keyword": "Scenario",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 12986960100,
+              "duration": 10836453400,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 319145000,
+              "duration": 161577500,
               "status": "passed"
             },
             "line": 5,
@@ -37,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 6045657000,
+              "duration": 4893213800,
               "status": "passed"
             },
             "line": 6,
@@ -49,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 552034400,
+              "duration": 507752600,
               "status": "passed"
             },
             "line": 7,
@@ -58,23 +56,11 @@
               "location": "com.step_definition.OrangeHRMLoginSteps.to_ake_he_Screeshot_and_the_Title()"
             },
             "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 669650100,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "To Close the browser",
-            "match": {
-              "location": "com.step_definition.OrangeHRMLoginSteps.to_Close_the_browser()"
-            },
-            "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-16T16:00:05.792Z",
+        "start_timestamp": "2020-09-17T04:08:45.118Z",
         "line": 10,
         "name": "To Test the Admin Functionality of OrangeHrm",
         "description": "",
@@ -84,7 +70,7 @@
         "steps": [
           {
             "result": {
-              "duration": 21870820900,
+              "duration": 1680985200,
               "status": "passed"
             },
             "line": 11,
@@ -96,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 219846800,
+              "duration": 217358000,
               "status": "passed"
             },
             "line": 12,
@@ -108,7 +94,7 @@
           },
           {
             "result": {
-              "duration": 239348500,
+              "duration": 382983700,
               "status": "passed"
             },
             "line": 13,
@@ -120,7 +106,7 @@
           },
           {
             "result": {
-              "duration": 90862200,
+              "duration": 183504800,
               "status": "passed"
             },
             "line": 14,
@@ -132,7 +118,7 @@
           },
           {
             "result": {
-              "duration": 124410700,
+              "duration": 244337600,
               "status": "passed"
             },
             "line": 15,
@@ -144,7 +130,7 @@
           },
           {
             "result": {
-              "duration": 905112600,
+              "duration": 826077000,
               "status": "passed"
             },
             "line": 16,
@@ -156,7 +142,7 @@
           },
           {
             "result": {
-              "duration": 807803700,
+              "duration": 423816600,
               "status": "passed"
             },
             "line": 17,
@@ -168,7 +154,7 @@
           },
           {
             "result": {
-              "duration": 655900900,
+              "duration": 617639800,
               "status": "passed"
             },
             "line": 18,

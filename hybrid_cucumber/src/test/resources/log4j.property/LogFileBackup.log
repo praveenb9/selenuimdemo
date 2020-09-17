@@ -108,3 +108,29 @@
 2020-09-16 21:30:09,268 [main] INFO com.baseclass.Library - Identified the browser as chrome. Launching the browser
 2020-09-16 21:30:19,339 [main] INFO com.baseclass.Library - Launched the Orangr HRM Application
 2020-09-16 21:30:30,715 [main] INFO com.baseclass.Library - Exiting the application and closing the browser
+2020-09-17 09:28:54,846 [main] INFO com.baseclass.Library - Starting with Browser Set Up
+2020-09-17 09:28:58,803 [main] INFO com.baseclass.Library - Identified the browser as chrome. Launching the browser
+2020-09-17 09:29:05,915 [main] INFO com.baseclass.Library - Launched the Orangr HRM Application
+2020-09-17 09:29:05,915 [main] INFO com.baseclass.Library - Browser launched
+2020-09-17 09:29:06,081 [main] INFO com.baseclass.Library - Entered username and password
+2020-09-17 09:29:11,052 [main] INFO com.baseclass.Library - login successful
+2020-09-17 09:29:11,570 [main] INFO com.baseclass.Library - Taken Screenshot
+2020-09-17 09:29:12,208 [main] INFO com.baseclass.Library - Exiting the application and closing the browser
+2020-09-17 09:29:12,209 [main] INFO com.baseclass.Library - browser droped
+2020-09-17 09:37:26,254 [main] INFO com.baseclass.Library - Starting with Browser Set Up
+2020-09-17 09:37:30,193 [main] INFO com.baseclass.Library - Identified the browser as chrome. Launching the browser
+2020-09-17 09:37:37,226 [main] INFO com.baseclass.Library - Launched the Orangr HRM Application
+2020-09-17 09:37:37,227 [main] INFO com.baseclass.Library - Browser launched
+2020-09-17 09:37:37,423 [main] INFO com.baseclass.Library - Entered username and password
+2020-09-17 09:37:42,350 [main] INFO com.baseclass.Library - login successful
+2020-09-17 09:37:43,151 [main] INFO com.baseclass.Library - Taken Screenshot
+2020-09-17 09:37:43,911 [main] INFO com.baseclass.Library - Exiting the application and closing the browser
+2020-09-17 09:37:43,912 [main] INFO com.baseclass.Library - browser droped
+2020-09-17 09:38:45,228 [main] INFO com.baseclass.Library - Starting with Browser Set Up
+2020-09-17 09:38:48,954 [main] INFO com.baseclass.Library - Identified the browser as chrome. Launching the browser
+2020-09-17 09:38:55,994 [main] INFO com.baseclass.Library - Launched the Orangr HRM Application
+2020-09-17 09:38:55,994 [main] INFO com.baseclass.Library - Browser launched
+2020-09-17 09:38:56,159 [main] INFO com.baseclass.Library - Entered username and password
+2020-09-17 09:39:01,054 [main] INFO com.baseclass.Library - login successful
+2020-09-17 09:39:01,557 [main] INFO com.baseclass.Library - Taken Screenshot
+2020-09-17 09:39:06,144 [main] INFO com.baseclass.Library - Exiting the application and closing the browser
