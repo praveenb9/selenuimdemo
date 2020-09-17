@@ -27,7 +27,7 @@ public class OrangeHRMAdminPage {
 	@FindBy(id = "searchBtn")
 	WebElement searchBtn;
 	
-	@FindBy(xpath =  "//*[@id=\"menu_admin_viewAdminModule\"]/b")
+	@FindBy(xpath =  "//*[@id='menu_admin_viewAdminModule']/b")
 	WebElement adminMenu;
 	
 	public void adminMenu()
