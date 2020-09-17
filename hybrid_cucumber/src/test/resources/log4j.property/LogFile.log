@@ -134,3 +134,48 @@
 2020-09-17 09:39:01,054 - com.baseclass.Library -INFO - login successful
 2020-09-17 09:39:01,557 - com.baseclass.Library -INFO - Taken Screenshot
 2020-09-17 09:39:06,144 - com.baseclass.Library -INFO - Exiting the application and closing the browser
+2020-09-17 09:45:55,692 - com.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-17 09:45:59,462 - com.baseclass.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-17 09:46:06,430 - com.baseclass.Library -INFO - Launched the Orangr HRM Application
+2020-09-17 09:46:06,431 - com.baseclass.Library -INFO - Browser launched
+2020-09-17 09:46:06,571 - com.baseclass.Library -INFO - Entered username and password
+2020-09-17 09:46:13,190 - com.baseclass.Library -INFO - login successful
+2020-09-17 09:46:13,684 - com.baseclass.Library -INFO - Taken Screenshot
+2020-09-17 09:46:15,430 - com.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-17 09:46:18,759 - com.baseclass.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-17 09:46:25,058 - com.baseclass.Library -INFO - Launched the Orangr HRM Application
+2020-09-17 09:46:25,059 - com.baseclass.Library -INFO - Browser launched
+2020-09-17 09:46:25,182 - com.baseclass.Library -INFO - Entered username and password
+2020-09-17 09:46:30,029 - com.baseclass.Library -INFO - login successful
+2020-09-17 09:46:30,827 - com.baseclass.Library -INFO - Taken Screenshot
+2020-09-17 09:46:32,582 - com.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-17 09:46:36,140 - com.baseclass.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-17 09:46:42,599 - com.baseclass.Library -INFO - Launched the Orangr HRM Application
+2020-09-17 09:46:42,599 - com.baseclass.Library -INFO - Browser launched
+2020-09-17 09:46:42,739 - com.baseclass.Library -INFO - Entered username and password
+2020-09-17 09:46:48,891 - com.baseclass.Library -INFO - login successful
+2020-09-17 09:46:49,703 - com.baseclass.Library -INFO - Taken Screenshot
+2020-09-17 09:49:01,259 - com.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-17 09:49:05,567 - com.baseclass.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-17 09:49:14,443 - com.baseclass.Library -INFO - Launched the Orangr HRM Application
+2020-09-17 09:49:14,443 - com.baseclass.Library -INFO - Browser launched
+2020-09-17 09:49:14,719 - com.baseclass.Library -INFO - Entered username and password
+2020-09-17 09:49:20,365 - com.baseclass.Library -INFO - login successful
+2020-09-17 09:49:20,934 - com.baseclass.Library -INFO - Taken Screenshot
+2020-09-17 09:49:26,644 - com.baseclass.Library -INFO - Exiting the application and closing the browser
+2020-09-17 09:49:26,673 - com.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-17 09:49:29,901 - com.baseclass.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-17 09:49:39,509 - com.baseclass.Library -INFO - Launched the Orangr HRM Application
+2020-09-17 09:49:39,509 - com.baseclass.Library -INFO - Browser launched
+2020-09-17 09:49:39,684 - com.baseclass.Library -INFO - Entered username and password
+2020-09-17 09:49:47,236 - com.baseclass.Library -INFO - login successful
+2020-09-17 09:49:47,836 - com.baseclass.Library -INFO - Taken Screenshot
+2020-09-17 09:49:52,376 - com.baseclass.Library -INFO - Exiting the application and closing the browser
+2020-09-17 09:49:52,386 - com.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-17 09:49:55,906 - com.baseclass.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-17 09:50:03,750 - com.baseclass.Library -INFO - Launched the Orangr HRM Application
+2020-09-17 09:50:03,751 - com.baseclass.Library -INFO - Browser launched
+2020-09-17 09:50:03,972 - com.baseclass.Library -INFO - Entered username and password
+2020-09-17 09:50:11,045 - com.baseclass.Library -INFO - login successful
+2020-09-17 09:50:11,953 - com.baseclass.Library -INFO - Taken Screenshot
+2020-09-17 09:50:17,272 - com.baseclass.Library -INFO - Exiting the application and closing the browser

@@ -21,10 +21,10 @@ public class OrangeHRMAdminSteps extends Library{
 	    adminPage.adminMenu();
 	}
 
-	@When("To Enter Username")
-	public void to_Enter_Username() {
+	@When("To Enter {string}")
+	public void to_Enter(String uName) {
 	    adminPage = new OrangeHRMAdminPage(driver);
-	    adminPage.enterUserName(properties.getProperty("username"));
+	    adminPage.enterUserName(uName);
 	}
 
 	@Then("Select UserRole")

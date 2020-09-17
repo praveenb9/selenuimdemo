@@ -52,7 +52,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Sep 17, 2020 09:38:44 am</span>
+			<span class='label blue darken-3 suite-start-time'>Sep 17, 2020 09:49:00 am</span>
 			</a>
 		</ul>
 	</div>
@@ -124,7 +124,7 @@
                     <canvas id='child-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> scenario(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>3</span> scenario(s) passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, 
@@ -140,7 +140,7 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>12</span> step(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>36</span> step(s) passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, 
@@ -166,7 +166,7 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>To Test The OrangeHrm Application</span>
-						<span class='test-time'>Sep 17, 2020 09:38:45 am</span>
+						<span class='test-time'>Sep 17, 2020 09:49:01 am</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -176,59 +176,171 @@
 	<a class="btn-floating waves-effect waves-light skip blue" title="skip"><i class='material-icons'>redo</i></a>
 	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
-<div class='scenario node' test-id='2' status='pass'>
-	<span class='duration right label'>0h 0m 20s+953ms</span>
+<div class='scenario outline node' test-id='2' status='pass'>
+	<span class='duration right label'>0h 1m 16s+62ms</span>
 	<div class="bdd-test">
-		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: To Test the Admin Functionality of OrangeHrm</div>
+		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario Outline: To Test the Admin Functionality of OrangeHrm</div>
+		<table class='runtime-table table-striped table'><tr><td>Username</td></tr><tr><td>Praveen</td></tr><tr><td>Suresh</td></tr><tr><td>Karthik</td></tr></table>
 	</div>
 	<ul class='steps'>
-		<li test-id='3' class='node given pass' status='pass'>
-			<div class="step-name" title="com.step_definition.OrangeHRMLoginSteps.to_Launch_the_Browser_and_navigate_to_the_Url()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given To Launch the Browser and navigate to the Url</div>
-			<div class="node-step"></div>
+		<li test-id='3' class='node scenario pass' status='pass'>
+			<div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>To Test the Admin Functionality of OrangeHrm</div>
+			<ul class='gc steps'>
+				<li test-id='4' class='gc given pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMLoginSteps.to_Launch_the_Browser_and_navigate_to_the_Url()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given To Launch the Browser and navigate to the Url</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='5' class='gc when pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMLoginSteps.to_Enter_Username_and_Password()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When To Enter Username and Password</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='6' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMLoginSteps.to_Click_the_Submit_button()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then To Click the Submit button</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='7' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMLoginSteps.to_ake_he_Screeshot_and_the_Title()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then To ake he Screeshot and the Title</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='8' class='gc given pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.to_Open_Admin_functionlity_of_OrangeHrm()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given To Open Admin functionlity of OrangeHrm</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='9' class='gc when pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.to_Enter(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When To Enter "Praveen"</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='10' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.select_UserRole()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Select UserRole</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='11' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.to_Enter_EmployeeName()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then To Enter EmployeeName</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='12' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.select_Status()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Select Status</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='13' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.click_Search_Button()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Click Search Button</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='14' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.take_the_Screenshot_and_the_Title()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Take the Screenshot and the Title</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='15' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.close_the_browser()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Close the browser</h6>
+					<div class="node-step"></div>
+				</li>
+			</ul>
 		</li>
-		<li test-id='4' class='node when pass' status='pass'>
-			<div class="step-name" title="com.step_definition.OrangeHRMLoginSteps.to_Enter_Username_and_Password()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When To Enter Username and Password</div>
-			<div class="node-step"></div>
+		<li test-id='16' class='node scenario pass' status='pass'>
+			<div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>To Test the Admin Functionality of OrangeHrm</div>
+			<ul class='gc steps'>
+				<li test-id='17' class='gc given pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMLoginSteps.to_Launch_the_Browser_and_navigate_to_the_Url()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given To Launch the Browser and navigate to the Url</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='18' class='gc when pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMLoginSteps.to_Enter_Username_and_Password()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When To Enter Username and Password</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='19' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMLoginSteps.to_Click_the_Submit_button()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then To Click the Submit button</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='20' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMLoginSteps.to_ake_he_Screeshot_and_the_Title()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then To ake he Screeshot and the Title</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='21' class='gc given pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.to_Open_Admin_functionlity_of_OrangeHrm()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given To Open Admin functionlity of OrangeHrm</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='22' class='gc when pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.to_Enter(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When To Enter "Suresh"</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='23' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.select_UserRole()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Select UserRole</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='24' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.to_Enter_EmployeeName()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then To Enter EmployeeName</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='25' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.select_Status()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Select Status</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='26' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.click_Search_Button()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Click Search Button</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='27' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.take_the_Screenshot_and_the_Title()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Take the Screenshot and the Title</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='28' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.close_the_browser()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Close the browser</h6>
+					<div class="node-step"></div>
+				</li>
+			</ul>
 		</li>
-		<li test-id='5' class='node then pass' status='pass'>
-			<div class="step-name" title="com.step_definition.OrangeHRMLoginSteps.to_Click_the_Submit_button()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then To Click the Submit button</div>
-			<div class="node-step"></div>
-		</li>
-		<li test-id='6' class='node then pass' status='pass'>
-			<div class="step-name" title="com.step_definition.OrangeHRMLoginSteps.to_ake_he_Screeshot_and_the_Title()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then To ake he Screeshot and the Title</div>
-			<div class="node-step"></div>
-		</li>
-		<li test-id='7' class='node given pass' status='pass'>
-			<div class="step-name" title="com.step_definition.OrangeHRMAdminSteps.to_Open_Admin_functionlity_of_OrangeHrm()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given To Open Admin functionlity of OrangeHrm</div>
-			<div class="node-step"></div>
-		</li>
-		<li test-id='8' class='node when pass' status='pass'>
-			<div class="step-name" title="com.step_definition.OrangeHRMAdminSteps.to_Enter_Username()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When To Enter Username</div>
-			<div class="node-step"></div>
-		</li>
-		<li test-id='9' class='node then pass' status='pass'>
-			<div class="step-name" title="com.step_definition.OrangeHRMAdminSteps.select_UserRole()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Select UserRole</div>
-			<div class="node-step"></div>
-		</li>
-		<li test-id='10' class='node then pass' status='pass'>
-			<div class="step-name" title="com.step_definition.OrangeHRMAdminSteps.to_Enter_EmployeeName()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then To Enter EmployeeName</div>
-			<div class="node-step"></div>
-		</li>
-		<li test-id='11' class='node then pass' status='pass'>
-			<div class="step-name" title="com.step_definition.OrangeHRMAdminSteps.select_Status()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Select Status</div>
-			<div class="node-step"></div>
-		</li>
-		<li test-id='12' class='node then pass' status='pass'>
-			<div class="step-name" title="com.step_definition.OrangeHRMAdminSteps.click_Search_Button()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Click Search Button</div>
-			<div class="node-step"></div>
-		</li>
-		<li test-id='13' class='node then pass' status='pass'>
-			<div class="step-name" title="com.step_definition.OrangeHRMAdminSteps.take_the_Screenshot_and_the_Title()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Take the Screenshot and the Title</div>
-			<div class="node-step"></div>
-		</li>
-		<li test-id='14' class='node then pass' status='pass'>
-			<div class="step-name" title="com.step_definition.OrangeHRMAdminSteps.close_the_browser()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Close the browser</div>
-			<div class="node-step"></div>
+		<li test-id='29' class='node scenario pass' status='pass'>
+			<div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>To Test the Admin Functionality of OrangeHrm</div>
+			<ul class='gc steps'>
+				<li test-id='30' class='gc given pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMLoginSteps.to_Launch_the_Browser_and_navigate_to_the_Url()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given To Launch the Browser and navigate to the Url</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='31' class='gc when pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMLoginSteps.to_Enter_Username_and_Password()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When To Enter Username and Password</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='32' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMLoginSteps.to_Click_the_Submit_button()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then To Click the Submit button</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='33' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMLoginSteps.to_ake_he_Screeshot_and_the_Title()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then To ake he Screeshot and the Title</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='34' class='gc given pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.to_Open_Admin_functionlity_of_OrangeHrm()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given To Open Admin functionlity of OrangeHrm</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='35' class='gc when pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.to_Enter(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When To Enter "Karthik"</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='36' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.select_UserRole()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Select UserRole</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='37' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.to_Enter_EmployeeName()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then To Enter EmployeeName</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='38' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.select_Status()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Select Status</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='39' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.click_Search_Button()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Click Search Button</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='40' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.take_the_Screenshot_and_the_Title()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Take the Screenshot and the Title</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='41' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="com.step_definition.OrangeHRMAdminSteps.close_the_browser()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Close the browser</h6>
+					<div class="node-step"></div>
+				</li>
+			</ul>
 		</li>
 	</ul>
 </div>
@@ -268,31 +380,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>1</div>
+					<div class='panel-lead'>3</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>12</div>
+					<div class='panel-lead'>36</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Sep 17, 2020 09:38:44 am</div>
+					<div class='panel-lead'>Sep 17, 2020 09:49:00 am</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Sep 17, 2020 09:39:06 am</div>
+			 		<div class='panel-lead'>Sep 17, 2020 09:50:17 am</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 21s+542ms</div>
+					<div class='panel-lead'>0h 1m 17s+10ms</div>
 				</div>
 			</div>
 		</div>
@@ -311,8 +423,8 @@
 				warningParent: 0,
 				skipParent: 0,
 				exceptionsParent: 0,
-				childCount: 1,
-				passChild: 1,
+				childCount: 3,
+				passChild: 3,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
@@ -321,8 +433,8 @@
 				infoChild: 0,
 				debugChild: 0,
 				exceptionsChild: 0,
-				grandChildCount: 12,
-				passGrandChild: 12,
+				grandChildCount: 36,
+				passGrandChild: 36,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
@@ -335,7 +447,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "To Test The OrangeHrm Application":20.953
+			        "To Test The OrangeHrm Application":76.062
 			};
 		</script>
 	
